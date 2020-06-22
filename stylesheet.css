@@ -1,0 +1,43 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+header{
+	height: 60px;
+	width: 100%;
+	background-color: #87CEFA;
+	background-size: cover;
+	position:fixed;
+	top:0;
+	z-index: 10;
+}
+h1{
+	color:white;
+}
+.header-right{
+	float: right;
+	margin-right: 10px;
+}
+.header-right a{
+line-height: 60px;
+padding:0 25px;
+color:white;
+display: block;
+float: left;
+transition: all;0.5s;
+margin-top: -55px;
+}
+.top-wrapper{
+	text-align: center;
+	padding: 180px 0 100px 0;
+	background-image: url(tophdr.png);
+	background-size: cover;
+	
+}
+.top-wrapper h2{
+	color:white;
+	opacity: 0.7;
+	font-size: 50px;
+}
